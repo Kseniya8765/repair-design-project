@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+.content {
+    margin: 0 auto;
+    max-width:1260px;
+    width: 100%;
+    }
+    %forspan1{
+      font-family: "FuturaDemiC";
+      font-size: 14px;
+      line-height: 16px;
+      text-transform: uppercase;
+      color: #E3B873;
+      text-decoration: none;
+    }
+    %section{
+font-family: "FuturaDemiC";
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+color: #FFFFFF;
+    }
+    %section2{
+      font-family: "Yeseva One";
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 37px;
+letter-spacing: -0.07em;
+text-transform: uppercase;
+color: #E3B873;
+    }
+    %section2p{
+      font-family: FuturaBookC;
+font-size: 18px;
+line-height: 29px;
+color: #FFFFFF;
+    }
+    %forbutton{
+      background: #E3B873;
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+border-radius: 2px;
+    }
+    .header{
+      background-color: #131313;
+      padding-top: 22px;
+      padding-bottom: 24px;
+    }
+.navigation{
+  display: flex;
+  justify-content: space-between;
+}
+.contact1{
+  display: flex;
+}
+.turnkey{
+  background-image: url(./assets/image.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 707px;
+  padding-left: 60px;
+  padding-top: 184px;
+}
+.logo a{
+@extend %forspan1;
+}
+.nav1 a{
+  @extend %forspan1;
+  font-family: "FuturaBookC";
+  color: #FFFFFF;
+  margin-left: 47px;
+  &:hover{color:#E3B873;}
+}
+.tel a{
+  @extend %forspan1;
+  text-decoration: underline;
+}
+.request{
+  width: 161px;
+  height: 37px;
+  @extend %forbutton;
+text-align: center;
+margin-left: 45px;
+}
+.request a{
+  display: block;
+  font-family: "FuturaDemiC";
+font-size: 13px;
+line-height: 37px;
+text-transform: uppercase;
+text-decoration: none;
+color: #FFFFFF;
+}
+.section{
+  display: flex;
+}
+.insta{
+  background-color: #131313;
+}
+.insta a{
+  @extend %forspan1;
+  display: block;
+transform: rotate(90deg);
+line-height: 707px;
+}
+h1{
+  font-family: "Yeseva One";
+font-size: 40px;
+line-height: 53px;
+text-transform: uppercase;
+color: #FFFFFF
+}
+.light{
+  color: #E3B873;
+}
+.turnkey p{
+  font-family: "FuturaBookC";
+font-size: 22px;
+line-height: 30px;
+color: #FFFFFF;
+margin-top: 29px;
+margin-bottom: 41px;
+}
+button{
+  @extend %forbutton;
+  width: 207px;
+  height: 57px;
+  border: none;
+  @extend %section;
+  cursor: pointer;
+}
+.submit{
+  @extend %section;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+  background-color: transparent;
+  cursor: pointer;
+  width: 207px;
+  height: 51px;
+  margin-left: 20px;
+}
+.projects{
+  margin-top: 65px;
+  & h3{
+    @extend %section2;
+  }
+  & p{
+    @extend %section2p;
+    margin-top: 34px;
+    margin-bottom: 42px;
+  }
+}
+.data{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 340px;
+  & p{
+    @extend %section2p;
+    font-size: 15px;
+  line-height: 20px;
+  margin-top: 9px;
+  margin-bottom: 34px;
+  }
+  & h5{
+    @extend %section2;
+    font-size: 18px;
+  line-height: 25px;
+  }
+}
+
+.nav2 a{
+  @extend %section2p;
+  font-size: 14px;
+line-height: 19px;
+text-decoration: none;
+text-transform: uppercase;
+margin-right: 60.5px;
+}
+.nav2 a:hover{
+  color: #E3B873;
+  text-decoration: underline;
+}
+.slider img{
+  margin-top: 50px;
+  width: 649px;
+  height: 482px;;
+}
+.section2{
+  background-color: #131313;
+  padding-left: 100px;
+  & .slide{
+    display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  }
+}
+.line1, .line2{
+  width: 32px;
+  height: 1.5px;
+  background-color: #E3B873;
+border-radius: 30px;
+}
+.online{
+  padding-top: 91px;
+  padding-bottom: 12px;
+  & h4{
+    @extend %section2;
+    color: #FFFFFF;
+    font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  }
+}
+.vector{
+  display: flex;
+}
+.video1{
+  width: 817px;
+  height: 434px;
+  margin-left: 300px;
+}
