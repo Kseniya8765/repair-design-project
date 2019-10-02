@@ -17,14 +17,14 @@
   color: #E3B873;
   text-decoration: none; }
 
-button, .submit {
+button, .submit, .submitinfo, .form-request h4, .call a {
   font-family: "FuturaDemiC";
   font-size: 13px;
   line-height: 15px;
   text-align: center;
   color: #FFFFFF; }
 
-.projects h3, .data h5, .online h4 {
+.projects h3, .data h5, .online h4, .headtype h3, .redecor h4, .overhaul h4, .repair h4, .price a {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: normal;
@@ -221,4 +221,175 @@ button {
 .video1 {
   width: 817px;
   height: 434px;
-  margin-left: 300px; }
+  position: relative;
+  margin-top: 31px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15); }
+
+.play {
+  background-color: #E3B873;
+  -webkit-box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+  box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 45%; }
+
+.play a {
+  display: block;
+  line-height: 95px; }
+
+.line3 {
+  background: #E3B873;
+  border-radius: 30px;
+  width: 55px;
+  height: 1.5px;
+  margin: 0 auto;
+  margin-top: 62.5px; }
+
+.types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 31px; }
+
+.text p {
+  margin-top: 35px;
+  font-family: "FuturaBookC";
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #363636; }
+
+.form {
+  text-align: center;
+  margin-top: 93px;
+  margin-bottom: 148px; }
+
+.submitinfo {
+  background: #E3B873;
+  -webkit-box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+  box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 2px;
+  width: 200px;
+  height: 51px;
+  font-size: 15px;
+  line-height: 26px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  margin-left: 50px; }
+
+.name, .phone {
+  border: none;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: matrix(1, 0, 0, -1, 0, 0);
+  -ms-transform: matrix(1, 0, 0, -1, 0, 0);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  width: 231px; }
+
+.phone {
+  margin-left: 58px;
+  margin-bottom: 35px; }
+
+.headtype h3 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #181818;
+  text-align: center;
+  margin-bottom: 13px; }
+
+.redecor-inside {
+  background-image: url(./assets/stena.jpg);
+  width: 392px;
+  height: 421px;
+  position: relative; }
+
+.overhaul-inside {
+  background-image: url(./assets/orange.jpg);
+  width: 392px;
+  height: 421px;
+  position: relative; }
+
+.repair-inside {
+  background-image: url(./assets/wow.jpg);
+  width: 392px;
+  height: 421px;
+  position: relative; }
+
+.redecor, .overhaul, .repair {
+  width: 330px;
+  height: 286px;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+  position: absolute;
+  left: 31px;
+  top: 294px; }
+  .redecor h4, .overhaul h4, .repair h4 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    margin-bottom: 13px; }
+  .redecor li, .overhaul li, .repair li {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 25px;
+    color: #959595; }
+
+.price {
+  width: 228px;
+  height: 54px;
+  background: #E3B873;
+  -webkit-box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  margin-top: 10px; }
+
+.price a {
+  text-decoration: none;
+  display: block;
+  line-height: 54px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center; }
+
+.opportunity {
+  margin-top: 124px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.form-request {
+  background-color: #131313;
+  -webkit-box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+  width: 506px;
+  height: 509px;
+  margin-top: 124px; }
+  .form-request h4 {
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 24px;
+    padding-bottom: 39px; }
+
+.call {
+  background: #E3B873;
+  -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  width: 213px;
+  height: 51px; }
+  .call a {
+    display: block;
+    line-height: 51px;
+    text-transform: uppercase;
+    text-decoration: none; }
