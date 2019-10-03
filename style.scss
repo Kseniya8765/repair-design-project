@@ -34,7 +34,7 @@ text-transform: uppercase;
 color: #E3B873;
     }
     %section2p{
-      font-family: FuturaBookC;
+      font-family: "FuturaBookC";
 font-size: 18px;
 line-height: 29px;
 color: #FFFFFF;
@@ -44,7 +44,7 @@ color: #FFFFFF;
 box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
 border-radius: 2px;
     }
-    .header{
+    .header, .footer{
       background-color: #131313;
       padding-top: 22px;
       padding-bottom: 24px;
@@ -387,4 +387,190 @@ line-height: 51px;
 text-transform: uppercase;
 text-decoration: none;
 }
+}
+.section5{
+  background-image: url(./assets/fof.jpg);
+  height: 864px;
+  margin-top: 242px;
+}
+.proposal-element{
+  padding-top: 137.5px;
+  margin-left: 99px;
+  & h4{
+    @extend %section2;
+    margin-bottom: 47px;
+  }
+  & li a{
+font-family: "Proxima Nova";
+font-size: 20px;
+line-height: 34px;
+color: #FFFFFF;
+text-decoration: none;
+  }
+  & ul{
+    list-style-type: none;
+  }
+& li{
+  margin-bottom: 13px;
+}
+& a:hover{
+text-decoration: underline;
+color: #E3B873;
+}
+}
+.proposal{
+  display: flex;
+  justify-content: space-between;
+}
+.proposal-img{
+  width: 750px;
+}
+.project{
+  margin-top: 412px;
+  & h4{
+    @extend %section2;
+    font-size: 20px;
+line-height: 28px;
+color: #131313;
+text-align: center;
+margin-bottom: 13px;
+  }
+  & p{
+    @extend %section2p;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #363636;
+margin-top: 24px;
+margin-bottom: 39px;
+  }
+}
+.project-mini{
+  background-image: url(./assets/stena.jpg);
+  width: 392px;
+  height: 421px;
+  position: relative;
+}
+.project-standart{
+  background-image: url(./assets/wow.jpg);
+  width: 392px;
+  height: 421px;
+  position: relative;
+}
+.project-full{
+  background-image: url(./assets/kl.jpg);
+  width: 392px;
+  height: 421px;
+  position: relative;
+}
+.project-element{
+  display: flex;
+  justify-content: space-between;
+}
+.inside-mini, .inside-standart, .inside-full{
+  background: #FFFFFF;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+position: absolute;
+left: 31px;
+top: 294px;
+& h4{
+  @extend %section2;
+  font-size: 18px;
+line-height: 25px;
+color: #363636;
+}
+& li{
+  font-family: "FuturaBookC";
+font-size: 15px;
+line-height: 25px;
+color: #959595;
+}
+& .price2{
+  @extend %forbutton;
+  width: 228px;
+  height: 54px;
+}
+}
+.price2 a{
+font-family: "Yeseva One";
+  display: block;
+  font-size: 18px;
+line-height: 54px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: center;
+text-decoration: none;
+}
+.goal h5{
+  @extend %section;
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 18px;
+}
+.goal h2{
+  @extend %section2;
+  font-size: 27px;
+line-height: 37px;
+margin-bottom: 92px;
+}
+.goal h4{
+  @extend %section2;
+  font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+margin-bottom: 22px;
+}
+.goal h3{
+  @extend %section2;
+  font-size: 15px;
+line-height: 23px;
+margin-bottom: 16px;
+}
+
+.goal p{
+  @extend %section2p;
+  font-size: 15px;
+line-height: 25px;
+text-align: left;
+margin-bottom: 20px;
+}
+.section7{
+  margin-top: 300px;
+  background-color: #131313;
+}
+.team-spirit, .steps-element{
+  display: flex;
+  justify-content: space-between;
+}
+.steps{
+  padding-top: 100px;
+}
+.steps-element{
+  flex-wrap: wrap;
+  & h6{
+    @extend %section;
+    text-align: left;
+    font-size: 15px;
+line-height: 21px;
+text-decoration: underline;
+text-decoration-color: #E3B873;
+margin-bottom: 16px;
+  }
+  & p{
+    @extend %section2p;
+    font-size: 15px;
+line-height: 18px;
+  }
+  & .element-1{
+    margin-right: 202px;
+    margin-bottom: 46px;
+  }
+  & .element-2{
+    margin-right: 221px;
+  }
+  & .element-4{
+    margin-bottom: 54px;
+  }
 }

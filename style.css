@@ -17,14 +17,14 @@
   color: #E3B873;
   text-decoration: none; }
 
-button, .submit, .submitinfo, .form-request h4, .call a {
+button, .submit, .submitinfo, .form-request h4, .call a, .goal h5, .steps-element h6 {
   font-family: "FuturaDemiC";
   font-size: 13px;
   line-height: 15px;
   text-align: center;
   color: #FFFFFF; }
 
-.projects h3, .data h5, .online h4, .headtype h3, .redecor h4, .overhaul h4, .repair h4, .price a {
+.projects h3, .data h5, .online h4, .headtype h3, .redecor h4, .overhaul h4, .repair h4, .price a, .proposal-element h4, .project h4, .inside-mini h4, .inside-standart h4, .inside-full h4, .goal h2, .goal h4, .goal h3 {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: normal;
@@ -34,19 +34,19 @@ button, .submit, .submitinfo, .form-request h4, .call a {
   text-transform: uppercase;
   color: #E3B873; }
 
-.projects p, .data p, .nav2 a {
-  font-family: FuturaBookC;
+.projects p, .data p, .nav2 a, .project p, .goal p, .steps-element p {
+  font-family: "FuturaBookC";
   font-size: 18px;
   line-height: 29px;
   color: #FFFFFF; }
 
-.request, button {
+.request, button, .inside-mini .price2, .inside-standart .price2, .inside-full .price2 {
   background: #E3B873;
   -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
   border-radius: 2px; }
 
-.header {
+.header, .footer {
   background-color: #131313;
   padding-top: 22px;
   padding-bottom: 24px; }
@@ -393,3 +393,176 @@ button {
     line-height: 51px;
     text-transform: uppercase;
     text-decoration: none; }
+
+.section5 {
+  background-image: url(./assets/fof.jpg);
+  height: 864px;
+  margin-top: 242px; }
+
+.proposal-element {
+  padding-top: 137.5px;
+  margin-left: 99px; }
+  .proposal-element h4 {
+    margin-bottom: 47px; }
+  .proposal-element li a {
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+    text-decoration: none; }
+  .proposal-element ul {
+    list-style-type: none; }
+  .proposal-element li {
+    margin-bottom: 13px; }
+  .proposal-element a:hover {
+    text-decoration: underline;
+    color: #E3B873; }
+
+.proposal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.proposal-img {
+  width: 750px; }
+
+.project {
+  margin-top: 412px; }
+  .project h4 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 13px; }
+  .project p {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #363636;
+    margin-top: 24px;
+    margin-bottom: 39px; }
+
+.project-mini {
+  background-image: url(./assets/stena.jpg);
+  width: 392px;
+  height: 421px;
+  position: relative; }
+
+.project-standart {
+  background-image: url(./assets/wow.jpg);
+  width: 392px;
+  height: 421px;
+  position: relative; }
+
+.project-full {
+  background-image: url(./assets/kl.jpg);
+  width: 392px;
+  height: 421px;
+  position: relative; }
+
+.project-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.inside-mini, .inside-standart, .inside-full {
+  background: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+  position: absolute;
+  left: 31px;
+  top: 294px; }
+  .inside-mini h4, .inside-standart h4, .inside-full h4 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636; }
+  .inside-mini li, .inside-standart li, .inside-full li {
+    font-family: "FuturaBookC";
+    font-size: 15px;
+    line-height: 25px;
+    color: #959595; }
+  .inside-mini .price2, .inside-standart .price2, .inside-full .price2 {
+    width: 228px;
+    height: 54px; }
+
+.price2 a {
+  font-family: "Yeseva One";
+  display: block;
+  font-size: 18px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none; }
+
+.goal h5 {
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 18px; }
+
+.goal h2 {
+  font-size: 27px;
+  line-height: 37px;
+  margin-bottom: 92px; }
+
+.goal h4 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 22px; }
+
+.goal h3 {
+  font-size: 15px;
+  line-height: 23px;
+  margin-bottom: 16px; }
+
+.goal p {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 20px; }
+
+.section7 {
+  margin-top: 300px;
+  background-color: #131313; }
+
+.team-spirit, .steps-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.steps {
+  padding-top: 100px; }
+
+.steps-element {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .steps-element h6 {
+    text-align: left;
+    font-size: 15px;
+    line-height: 21px;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #E3B873;
+    text-decoration-color: #E3B873;
+    margin-bottom: 16px; }
+  .steps-element p {
+    font-size: 15px;
+    line-height: 18px; }
+  .steps-element .element-1 {
+    margin-right: 202px;
+    margin-bottom: 46px; }
+  .steps-element .element-2 {
+    margin-right: 221px; }
+  .steps-element .element-4 {
+    margin-bottom: 54px; }
