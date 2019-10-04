@@ -24,7 +24,7 @@ button, .submit, .submitinfo, .form-request h4, .call a, .goal h5, .steps-elemen
   text-align: center;
   color: #FFFFFF; }
 
-.projects h3, .data h5, .online h4, .headtype h3, .redecor h4, .overhaul h4, .repair h4, .price a, .proposal-element h4, .project h4, .inside-mini h4, .inside-standart h4, .inside-full h4, .goal h2, .goal h4, .goal h3 {
+.projects h3, .data h5, .online h4, .headtype h3, .redecor h4, .overhaul h4, .repair h4, .price a, .proposal-element h4, .project h4, .inside-mini h4, .inside-standart h4, .inside-full h4, .goal h2, .goal h4, .goal h3, .team h4, .human-info h5, .experience a {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: normal;
@@ -34,7 +34,7 @@ button, .submit, .submitinfo, .form-request h4, .call a, .goal h5, .steps-elemen
   text-transform: uppercase;
   color: #E3B873; }
 
-.projects p, .data p, .nav2 a, .project p, .goal p, .steps-element p {
+.projects p, .data p, .nav2 a, .project p, .goal p, .steps-element p, .team p, .human-info p {
   font-family: "FuturaBookC";
   font-size: 18px;
   line-height: 29px;
@@ -566,3 +566,90 @@ button {
     margin-right: 221px; }
   .steps-element .element-4 {
     margin-bottom: 54px; }
+
+.team h4 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 95px;
+  margin-bottom: 12.5px; }
+
+.vector-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 100px; }
+
+.team p {
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 23.5px; }
+
+.human {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-top: 73.5px; }
+
+.human-1 {
+  background-image: url(./assets/man1.jpg);
+  width: 272px;
+  height: 358px; }
+
+.human-2 {
+  background-image: url(./assets/woman.jpg);
+  width: 272px;
+  height: 358px; }
+
+.human-3 {
+  background-image: url(./assets/man3.jpg);
+  width: 272px;
+  height: 358px; }
+
+.human-info {
+  width: 233px;
+  height: 137px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05); }
+  .human-info h5 {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #181818;
+    text-transform: inherit; }
+  .human-info p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #959595; }
+
+.experience {
+  width: 233px;
+  height: 44px;
+  background-color: #E3B873; }
+  .experience a {
+    display: block;
+    line-height: 44px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    color: #FFFFFF; }
+
+.section9 {
+  background-image: url(./assets/city.jpg); }
+
+.questions {
+  width: 883px;
+  height: 445px;
+  background-color: #131313; }
+
+.clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
