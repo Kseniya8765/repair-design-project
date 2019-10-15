@@ -672,6 +672,7 @@ margin-bottom: 39px;
   justify-content: space-around;
   height: 750px;
   background: linear-gradient(to top, #131313 52%, #FFFFFF 50%);
+  flex-wrap: wrap;
 }
 .inside-mini{
   width: 330px;
@@ -840,6 +841,7 @@ left: -35px;
   justify-content: space-around;
   margin-top: 73.5px;
   background: linear-gradient(to top, #FFFFFF 52%, #131313 50%);
+  flex-wrap: wrap;
 }
 .human-1{
   background-image: url(./assets/man1.jpg);
@@ -1081,4 +1083,269 @@ margin-top: 52px;
   text-align: center;
   padding-bottom: 66px;
   margin-top: 43px;
+}
+.slider-mobile{
+  display: none;
+}
+@media screen and (max-width:450px){
+  .nav1{
+    display: none;
+  }
+  .navigation{
+    height: 57px;
+  }
+  .turnkey{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./assets/image.jpg);
+    height: 476px;
+    padding-left: 18px;
+    padding-top: 85px;
+  }
+  .logo a{
+  @extend %forspan1;
+  font-size: 12px;
+  cursor: pointer;
+  }
+  .tel a{
+color: #FFFFFF;
+    font-size: 12px;
+    line-height: 57px;
+    cursor: pointer;
+  }
+  .request{
+  display: none;
+  }
+  .insta{
+  display: none;
+  }
+  .scroll{
+ display: none;
+  }
+  h1{
+  font-size: 23px;
+  line-height: 31px;
+  }
+  .light{
+    font-size: 23px;
+    line-height: 31px;
+  }
+  .turnkey p{
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  width: 300px;
+  }
+  button{
+    width: 339px;
+    height: 51px;
+    margin-bottom: 26px;
+  }
+  .submit{
+    width: 339px;
+    height: 51px;
+    margin-left: 0px;
+  }
+  .line-p{
+    display: none;
+  }
+  .projects{
+    margin-top: 0px;
+    & h3{
+      font-size: 22px;
+      line-height: 30px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    & p{
+      margin-top: 22px;
+      font-size: 14px;
+      margin-bottom: 36px;
+      line-height:22px;
+      width: 320px;
+      text-align: center;
+    }
+  }
+  .slider-mobile{
+    display: flex;
+    background-image: url(./assets/red.jpg);
+    width: 340px;
+    height: 241px;
+    margin-bottom: 37px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #E3B873;
+  }
+  .btn a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 36px;
+  }
+  .data{
+    width: 340px;
+    & p{
+      font-size: 14px;
+    line-height: 19px;
+    margin-top: 11px;
+    margin-bottom: 57px;
+    width: 130px;
+    text-align: left;
+    }
+    & h5{
+      font-size: 14px;
+    line-height: 19px;
+    }
+  }
+  .city, .appartment, .time, .cost{
+    width: 130px;
+    height: 80px;
+    margin-bottom: 51px;
+  }
+  .arrows{
+    display: none;
+  }
+  .section2{
+    padding-left: 0px;
+    & .slide{
+    padding-top: 36px;
+    }
+  }
+  .slider{
+    display: none;
+  }
+  .line1, .line2{
+    width: 32px;
+    height: 1.5px;
+    background-color: #E3B873;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  }
+  .online{
+    padding-top: 0px;
+    padding-bottom: 20px;
+    & h4{
+      font-size: 22px;
+    line-height: 30px;
+    }
+  }
+  .poster-video{
+    width: 340px;
+    height: 207px;
+    background-size: cover;
+  }
+  .video1{
+    height: 207px;
+    background: #131313;
+  }
+  .play{
+  width: 37px;
+  height: 37px;
+  }
+  .play a{
+    line-height: 37px;
+  }
+  .play img{
+    width: 12px;
+    height: 12px;
+  }
+  .line3{
+  margin-top: 0px;
+  }
+  .l-mobile{
+    padding-top: 28px;
+  }
+  .types{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 31px;
+    flex-wrap: wrap;
+  }
+  .section3{
+    padding-top: 0px;
+    background: linear-gradient(to top, #ffffff 70%, #131313 20%);
+  }
+  .text p{
+    margin-top: 35px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  }
+  .form{
+    margin-top: 61px;
+    margin-bottom: 58px;
+  }
+  .form-in{
+    max-width: 340px;
+  }
+  .submitinfo{
+  box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.15);
+  width: 340px;
+  font-size: 15px;
+  line-height: 26px;
+  margin-left: 0px;
+  order: 4;
+  margin-top: 62px;
+  }
+  .checkbox{
+    order: 3;
+  }
+  .form-phone p{
+    margin-left: 0px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .form-name{
+    margin-bottom: 63px;
+  }
+  .form-name p{
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .name, .phone{
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    width: 340px;
+    background: 0;
+  line-height: 25px;
+  color: #FFFFFF;
+  }
+  .phone{
+    margin-left: 0px;
+    margin-bottom: 26px;
+  }
+        .checkbox label {
+          color: #ffffff;
+         }
+.footer{
+  display: none;
+}
+.team-spirit{
+  display: none;
+}
+.text3{
+  display: none;
+}
+.clients{
+  display: none;
+}
+.proposal{
+  display: none; //new slider
+}
+.opportunity{
+  display: none;
+}
+
+.questions{
+  width: 339px;
+  height: 445px;}
+.map img{
+  width: 340px;
+  height: 255px;
+}
+.human{
+  justify-content: center;
+}
 }
