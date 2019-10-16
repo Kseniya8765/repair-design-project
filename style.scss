@@ -1087,6 +1087,9 @@ margin-top: 52px;
 .slider-mobile{
   display: none;
 }
+.clock-content{
+  display: none;
+}
 @media screen and (max-width:450px){
   .nav1{
     display: none;
@@ -1268,7 +1271,7 @@ color: #FFFFFF;
   }
   .section3{
     padding-top: 0px;
-    background: linear-gradient(to top, #ffffff 70%, #131313 20%);
+    background: linear-gradient(to top, #ffffff 72%, #131313 30%);
   }
   .text p{
     margin-top: 35px;
@@ -1331,9 +1334,6 @@ color: #FFFFFF;
 .clients{
   display: none;
 }
-.proposal{
-  display: none; //new slider
-}
 .opportunity{
   display: none;
 }
@@ -1347,5 +1347,231 @@ color: #FFFFFF;
 }
 .human{
   justify-content: center;
+}
+.headtype h3{
+  font-size: 22px;
+line-height: 30px;
+margin-bottom: 17px;
+}
+.redecor-inside, .overhaul-inside, .repair-inside{
+  width: 340px;
+  height: 365px;
+}
+.redecor-inside, .overhaul-inside{
+  margin-bottom: 150px;
+}
+.redecor, .overhaul, .repair{
+width: 270px;
+height: 241px;
+left: 0px;
+top: 223px;
+& h4{
+  font-size: 15px;
+line-height: 21px;
+margin-bottom: 10px;
+padding-top: 21px;
+}
+& li{
+font-size: 13px;
+line-height: 22px;
+}
+}
+.price{
+  width: 190px;
+  height: 40px;
+margin-top: 17px;
+}
+.price a{
+  line-height: 40px;
+font-size: 15px;
+}
+.clock-content{
+  display: block;
+  margin-top: 150px;
+  background: linear-gradient(to top, #131313 40%, #ffffff 50%);
+}
+.clock-text h5{
+font-family: "Yeseva One";;
+font-size: 22px;
+line-height: 30px;
+text-align: center;
+text-transform: uppercase;
+color: #E3B873;
+}
+.section5{
+display: none;
+}
+.clock-slide{
+  background-image: url(./assets/clock.jpg);
+  width: 340px;
+  height: 242px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section6{
+  background-color: #131313;
+  padding-top: 52px;
+}
+.project{
+  margin-top: 0px;
+  & h4{
+    font-size: 22px;
+line-height: 30px;
+color: #ffffff;
+margin-bottom: 16px;
+  }
+  & p{
+font-size: 15px;
+line-height: 20px;
+color: #ffffff;
+  }
+}
+.project-mini{
+  width: 340px;
+  height: 365px;
+  margin-bottom: 100px;
+}
+.project-standart{
+  width: 340px;
+  height: 420px;
+  margin-bottom: 100px;
+}
+.project-full{
+  width: 340px;
+  height: 420px;
+}
+.project-element{
+  justify-content: center;
+  height: 100%;
+  background: #131313;
+}
+.inside-mini{
+  width: 270px;
+  height: 177px;
+}
+.inside-standart{
+  width: 270px;
+  height: 241px;
+}
+.inside-full{
+  width: 270px;
+  height: 241px;
+}
+.inside-mini, .inside-standart, .inside-full{
+left: 0px;
+top: 223px;
+& h4{
+  font-size: 15px;
+line-height: 21px;
+padding-top: 18px;
+margin-left: 31px;
+color: #363636;
+}
+& li{
+font-size: 13px;
+line-height: 22px;
+margin-left: 50px;
+}
+& .price2{
+  width: 190px;
+  height: 40px;
+  bottom:-20px;
+}
+}
+.price2 a{
+  font-size: 15px;
+line-height: 40px;
+}
+.cut{
+  display: none;
+}
+.team h4{
+font-size: 22px;
+line-height: 30px;
+margin-top: 0px;
+padding-top: 136px;
+}
+.team p{
+  font-size: 15px;
+line-height: 20px;
+}
+.human{
+  justify-content: center;
+  background: #131313;}
+.human-1{
+  width: 304px;
+  background-size: cover;
+  margin-left: 0px;
+ margin-bottom: 170px;
+}
+.human-2{
+  width: 304px;
+  background-size: cover;
+  margin-bottom: 170px;
+}
+.human-3{
+  width: 304px;
+  margin-right: 0px;
+  background-size: cover;
+  margin-bottom: 170px;
+}
+.human-info{
+left: 31px;
+}
+.section9{
+  background-image:none;
+  background-color: #131313;
+  background-size: inherit;
+  margin-top: 0px;
+}
+.enter-data{
+  background: #131313;
+}
+.form-name{
+  margin-bottom: 72px;
+}
+.phone2{
+  margin-bottom: 63px;
+}
+.questions{
+  width: 340px;
+  height: 545px;
+  & h3{
+padding-top: 0px;
+margin-bottom: 52px;
+  }
+}
+.submitinfo2{
+width: 340px;
+margin-top: 67px;
+}
+.mail-link, .insta-link{
+width: 39px;
+height: 39px;
+}
+.adress-link{
+  margin-top: 24px;
+  & .insta-link{
+    margin-left: 21px;
+  }
+  & a{
+    line-height: 39px;
+  }
+}
+.insta-link img{
+  margin-top: 7px;
+}
+.mail-link img{
+  margin-top: 7px;
+}
+.adress p{
+  font-size: 18px;
+line-height: 25px;
+margin-top: 41px;
+}
+.section8{
+ display: none;
 }
 }
