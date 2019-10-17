@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -98,6 +99,16 @@
   margin-left: 45px;
   height: 37px;
 }
+.request:hover {
+  opacity: 0.9;
+}
+.request:active {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+}
 
 .request a {
   display: block;
@@ -126,7 +137,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: -70px;
 }
 
 .insta a {
@@ -154,16 +164,7 @@
 .scroll a {
   display: block;
   text-decoration: none;
-  color: #E3B873;
-  transform: rotate(90deg);
-  border: 1.5px solid #E3B873;
-  border-radius: 50%;
-  width: 29px;
-  height: 29px;
-  line-height: 29px;
-  text-align: center;
   margin-left: 12px;
-  font-size: 20px;
 }
 
 h1 {
@@ -185,6 +186,7 @@ h1 {
   color: #FFFFFF;
   margin-top: 29px;
   margin-bottom: 41px;
+  width: 440px;
 }
 
 button {
@@ -192,6 +194,16 @@ button {
   height: 57px;
   border: none;
   cursor: pointer;
+}
+button:hover {
+  opacity: 0.9;
+}
+button:active {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
 }
 
 .submit {
@@ -203,6 +215,16 @@ button {
   height: 51px;
   margin-left: 20px;
 }
+.submit:hover {
+  opacity: 0.9;
+}
+.submit:active {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+}
 
 .projects {
   margin-top: 65px;
@@ -210,6 +232,7 @@ button {
 .projects p {
   margin-top: 34px;
   margin-bottom: 42px;
+  width: 440px;
 }
 
 .projects-h, .steps-h {
@@ -269,10 +292,11 @@ button {
 
 .arrow, .arrow2 {
   display: block;
-  line-height: 13px;
   text-decoration: none;
-  color: #FFFFFF;
-  margin-right: 12.5px;
+}
+
+.arrow {
+  transform: rotate(180deg);
 }
 
 .arrow2 {
@@ -302,6 +326,9 @@ button {
   position: absolute;
   top: 205px;
   right: 0;
+}
+.button2:hover {
+  opacity: 0.9;
 }
 .button2 a {
   display: block;
@@ -381,6 +408,9 @@ button {
   top: 40%;
   left: 50%;
 }
+.play:hover {
+  opacity: 0.9;
+}
 
 .play a {
   display: block;
@@ -436,6 +466,16 @@ button {
   border: none;
   cursor: pointer;
   margin-left: 50px;
+}
+.submitinfo:hover {
+  opacity: 0.9;
+}
+.submitinfo:active {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
 }
 
 .form-name p, .form-phone p {
@@ -582,6 +622,16 @@ input[type=checkbox] {
   box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
   margin-top: 10px;
 }
+.price:hover {
+  opacity: 0.9;
+}
+.price:active {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+}
 
 .price a {
   text-decoration: none;
@@ -596,6 +646,48 @@ input[type=checkbox] {
 .opportunity {
   margin-top: 124px;
   display: flex;
+  justify-content: space-around;
+}
+
+.clock {
+  background-image: url(./assets/gorod.png);
+  width: 630px;
+  height: 636px;
+  background-size: cover;
+}
+
+.ellipse {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(to right, #fff 0%, #fff 20%, #fff 20%, #E3B873 100%) border-box;
+  border: 3px solid transparent;
+  margin-top: 100px;
+}
+
+.pig-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 38px;
+}
+
+.pig {
+  width: 72px;
+  height: 72px;
+  background: #E3B873;
+  box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+  border-radius: 50px;
+  line-height: 92px;
+  text-align: center;
+}
+
+.text-pig p {
+  font-family: "FuturaDemiC";
+  font-size: 20px;
+  line-height: 25px;
+  color: #E3B873;
+  text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
 
 .form-request {
@@ -618,6 +710,16 @@ input[type=checkbox] {
   width: 213px;
   height: 51px;
   margin: 0 auto;
+}
+.call:hover {
+  opacity: 0.9;
+}
+.call:active {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
 }
 .call a {
   display: block;
@@ -792,6 +894,16 @@ input[type=checkbox] {
   color: #FFFFFF;
   text-align: center;
   text-decoration: none;
+}
+.price2 a:hover {
+  opacity: 0.9;
+}
+.price2 a:active {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
 }
 
 .goal h5 {
@@ -972,6 +1084,16 @@ input[type=checkbox] {
   height: 44px;
   background-color: #E3B873;
 }
+.experience:hover {
+  opacity: 0.9;
+}
+.experience:active {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+}
 .experience a {
   display: block;
   line-height: 44px;
@@ -1051,6 +1173,16 @@ input[type=checkbox] {
   background: #E3B873;
   box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
 }
+.measure:hover {
+  opacity: 0.9;
+}
+.measure:active {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+}
 .measure a {
   display: block;
   text-decoration: none;
@@ -1063,7 +1195,7 @@ input[type=checkbox] {
 .section9 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/city.jpg);
   background-size: cover;
-  margin-top: 370px;
+  margin-top: 120px;
 }
 
 .enter-data {
@@ -1121,6 +1253,16 @@ input[type=checkbox] {
   width: 200px;
   height: 51px;
 }
+.submitinfo2:hover {
+  opacity: 0.9;
+}
+.submitinfo2:active {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+}
 .submitinfo2 a {
   display: block;
   font-size: 15px;
@@ -1134,6 +1276,16 @@ input[type=checkbox] {
   height: 28px;
   background-color: #E3B873;
   border-radius: 50%;
+}
+.mail-link:hover, .insta-link:hover {
+  opacity: 0.9;
+}
+.mail-link:active, .insta-link:active {
+  position: relative;
+  top: 1px;
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
 }
 
 .adress-link {
@@ -1191,6 +1343,7 @@ input[type=checkbox] {
 
   .navigation {
     height: 57px;
+    padding: 0px 9px;
   }
 
   .turnkey {
