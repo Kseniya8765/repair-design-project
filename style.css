@@ -29,7 +29,7 @@
   color: #FFFFFF;
 }
 
-.adress p, .questions h3, .measure a, .clients-say h5, .text3 h4, .experience a, .human-info h5, .team h4, .goal h3, .goal h4, .goal h2, .inside-mini h4, .inside-standart h4, .inside-full h4, .project h4, .proposal-element h4, .price a, .redecor h4, .overhaul h4, .repair h4, .headtype h3, .online h4, .data h5, .projects h3, .scroll p {
+.adress p, .questions h3, .measure a, .clients-say h5, .text3 h4, .experience a, .human-info h5, .team h4, .goal h3, .goal h4, .goal h2, .inside-mini h4, .inside-standart h4, .inside-full h4, .project h4, .proposal-element h4, .num p, .price a, .redecor h4, .overhaul h4, .repair h4, .headtype h3, .online h4, .data h5, .projects h3, .scroll p {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: normal;
@@ -433,12 +433,14 @@ button:active {
 }
 
 .text p {
-  margin-top: 35px;
+  padding-top: 35px;
   font-family: "FuturaBookC";
   font-size: 20px;
   line-height: 34px;
   text-align: center;
   color: #363636;
+  max-width: 680px;
+  margin: 0 auto;
 }
 
 .form {
@@ -561,6 +563,64 @@ input[type=checkbox] {
   outline: #3b99fc auto 5px;
 }
 
+.checkbox2 {
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+.checkbox2 label::before {
+  content: "";
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  border-radius: 1px;
+  background-color: #E3B873;
+}
+
+.checkbox2 label::after {
+  content: "";
+  display: inline-block;
+  height: 6px;
+  width: 9px;
+  color: #FFFFFF;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  transform: rotate(-45deg);
+}
+
+.checkbox2 label {
+  position: relative;
+}
+
+.checkbox2 label::before,
+.checkbox2 label::after {
+  position: absolute;
+}
+
+/*Внешний блок*/
+.checkbox2 label::before {
+  left: -20px;
+}
+
+/*Галка*/
+.checkbox2 label::after {
+  left: 4px;
+  top: 5px;
+}
+
+.checkbox2 input[type=checkbox] + label::after {
+  content: none;
+}
+
+/*Показываем галку по состоянию checked*/
+.checkbox2 input[type=checkbox]:checked + label::after {
+  content: "";
+}
+
+.checkbox2 input[type=checkbox]:focus + label::before {
+  outline: #3b99fc auto 5px;
+}
+
 .headtype h3 {
   font-size: 20px;
   line-height: 28px;
@@ -644,7 +704,7 @@ input[type=checkbox] {
 }
 
 .opportunity {
-  margin-top: 124px;
+  margin-top: 184px;
   display: flex;
   justify-content: space-around;
 }
@@ -657,12 +717,63 @@ input[type=checkbox] {
 }
 
 .ellipse {
-  width: 400px;
-  height: 400px;
+  background-image: url(./assets/Ellipse.png);
+  background-size: cover;
+  width: 450px;
+  height: 600px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.ellipse-element, .ellipse-element2, .ellipse-element3, .ellipse-element4 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.ellipse-element {
+  top: 62px;
+  right: -248px;
+}
+
+.ellipse-element2 {
+  top: 163px;
+  right: -100px;
+}
+
+.ellipse-element3 {
+  top: 317px;
+  right: -137px;
+}
+
+.ellipse-element4 {
+  top: 467px;
+  right: -167px;
+}
+
+.num {
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 30px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(to right, #fff 0%, #fff 20%, #fff 20%, #E3B873 100%) border-box;
-  border: 3px solid transparent;
-  margin-top: 100px;
+}
+.num p {
+  font-size: 18px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.ell-text {
+  margin-left: 17px;
+}
+.ell-text p {
+  font-family: "FuturaMediumC";
+  font-size: 15px;
+  line-height: 21px;
+  color: #363636;
 }
 
 .pig-content {
@@ -690,6 +801,29 @@ input[type=checkbox] {
   text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
 
+.form-name2 p, .form-phone2 p, .email2 p {
+  font-family: "FuturaBookC";
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.form-name2 input, .form-phone2 input, .email2 input {
+  font-family: "FuturaBookC";
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.form-name2, .form-phone2 {
+  margin-bottom: 50px;
+}
+
+.name-phone {
+  display: flex;
+  justify-content: space-between;
+}
+
 .form-request {
   background-color: #131313;
   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
@@ -709,7 +843,7 @@ input[type=checkbox] {
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
   width: 213px;
   height: 51px;
-  margin: 0 auto;
+  margin-left: auto;
 }
 .call:hover {
   opacity: 0.9;
@@ -1163,6 +1297,8 @@ input[type=checkbox] {
   margin-left: 20px;
   clear: both;
   margin-top: 22px;
+  margin-bottom: 58px;
+  width: 324px;
 }
 
 .measure {
@@ -1319,13 +1455,19 @@ input[type=checkbox] {
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  margin-top: 52px;
+  padding-top: 52px;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .map {
   text-align: center;
   padding-bottom: 66px;
   margin-top: 43px;
+}
+
+.map-mob {
+  display: none;
 }
 
 .slider-mobile {
@@ -1339,6 +1481,10 @@ input[type=checkbox] {
 @media screen and (max-width: 450px) {
   .nav1 {
     display: none;
+  }
+
+  .content {
+    padding: 0px 9px;
   }
 
   .navigation {
@@ -1421,12 +1567,13 @@ input[type=checkbox] {
     margin: 0 auto;
   }
   .projects p {
-    margin-top: 22px;
+    padding-top: 22px;
     font-size: 14px;
-    margin-bottom: 36px;
+    padding-bottom: 36px;
     line-height: 22px;
     width: 320px;
     text-align: center;
+    margin: 0 auto;
   }
 
   .slider-mobile {
@@ -1455,6 +1602,7 @@ input[type=checkbox] {
 
   .data {
     width: 340px;
+    margin: 0 auto;
   }
   .data p {
     font-size: 14px;
@@ -1638,9 +1786,17 @@ input[type=checkbox] {
     height: 445px;
   }
 
-  .map img {
+  .map-mob img {
     width: 340px;
     height: 255px;
+  }
+
+  .map-mob {
+    display: block;
+  }
+
+  .map {
+    display: none;
   }
 
   .human {
@@ -1889,6 +2045,7 @@ input[type=checkbox] {
 
   .adress-link {
     margin-top: 24px;
+    padding-bottom: 38px;
   }
   .adress-link .insta-link {
     margin-left: 21px;
@@ -1906,9 +2063,10 @@ input[type=checkbox] {
   }
 
   .adress p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
-    margin-top: 41px;
+    margin-top: 0px;
+    letter-spacing: -0.1px;
   }
 
   .section8 {
